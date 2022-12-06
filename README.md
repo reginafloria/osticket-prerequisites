@@ -22,34 +22,146 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Connect to your Virtual Machine with Remote Desktop
+- Install / Enable IIS in Windows
+- Install Web Platform Installer
+- Install osTicket v1.15.8
+- Reload IIS (Open IIS, Stop and Start the server)
+- Enable Extensions in IIS: Note that some extensions are not enabled
+- Refresh the osTicket site in your browse, observe the changes
+- Rename:
+	From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+	To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+- Assign Permissions: ost-config.php
+- Continue Setting up osTicket in the browser (click Continue)
+- Download and Install HeidiSQL
+- Continue Setting up osticket in the browser
+- MySQL Database: osTicket
+- Click “Install Now!"
+- Congratulations, hopefully it is installed with no errors
+- Clean up
+Delete: C:\inetpub\wwwroot\osTicket\setup
+Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+- Login to the osTicket Admin Panel
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/qGjslsX.jpg" height="80%" width="80%" alt="Created virtual machine for os-Ticketing system"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In Azure virtual machine was created for the os-Ticketing system.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/pQs86Ab.jpg" height="80%" width="80%" alt="Connection to virtual machine through Remote Desktop App"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Connected to the virtual machine using the Remote Desktop App with the public IP address of the Azure virtual machine.
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/xSyXMhd.jpg" height="80%" width="80%" alt="Installed Internet Information Services"/>
+</p>
+<p>
+Installed and enabled Internet Information Services within Windows 10.
+</p>
+<br />
+
+<p>
+<img src="*" height="80%" width="80%" alt="Add screenshot description here"/>
+</p>
+<p>
+Add description of screenshot here
+</p>
+<br />
+
+<p>
+<img src="*" height="80%" width="80%" alt="Add screenshot description here"/>
+</p>
+<p>
+Add description of screenshot here
+</p>
+<br />
+
+<p>
+<img src="*" height="80%" width="80%" alt="Add screenshot description here"/>
+</p>
+<p>
+Add description of screenshot here
+</p>
+<br />
+
+<p>
+<img src="*" height="80%" width="80%" alt="Add screenshot description here"/>
+</p>
+<p>
+Add description of screenshot here
+</p>
+<br />
+
+<p>
+<img src="*" height="80%" width="80%" alt="Add screenshot description here"/>
+</p>
+<p>
+Add description of screenshot here
+</p>
+<br />
+
+<p>
+<img src="*" height="80%" width="80%" alt="Add screenshot description here"/>
+</p>
+<p>
+Add description of screenshot here
+</p>
+<br />
+
+<p>
+<img src="*" height="80%" width="80%" alt="Add screenshot description here"/>
+</p>
+<p>
+Add description of screenshot here
+</p>
+<br />
+
+<p>
+<img src="*" height="80%" width="80%" alt="Add screenshot description here"/>
+</p>
+<p>
+Add description of screenshot here
+</p>
+<br />
+
+<p>
+<img src="*" height="80%" width="80%" alt="Add screenshot description here"/>
+</p>
+<p>
+Add description of screenshot here
+</p>
+<br />
+
+<p>
+<img src="*" height="80%" width="80%" alt="Add screenshot description here"/>
+</p>
+<p>
+Add description of screenshot here
+</p>
+<br />
+
+<p>
+<img src="*" height="80%" width="80%" alt="Add screenshot description here"/>
+</p>
+<p>
+Add description of screenshot here
+</p>
+<br />
+
+<p>
+<img src="*" height="80%" width="80%" alt="Add screenshot description here"/>
+</p>
+<p>
+Add description of screenshot here
 </p>
 <br />
